@@ -1,8 +1,5 @@
 from django.contrib import admin
+from .models import Blogpost
+admin.site.register(Blogpost)
 
-# Register your models here.
-from .models import product,contact,Order,OrderUpdate
-admin.site.register(product)
-admin.site.register(contact)
-admin.site.register(Order)
-admin.site.register(OrderUpdate)
+
